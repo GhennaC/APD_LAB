@@ -1,0 +1,6 @@
+1. din t.run -> test
+	executa tot bine ,pentru ca executia cu run este secventiala.
+2. e pus lock pe acelasi id si practic intrand in unul ,merge si in al doilea pt ca e acelasi thread si nu are nici o utilitate ,functioneaza practic ca un singur lock.
+3.stringurile create pointeaza catre aceeasi parte din memorie adica stringul "lock".
+4.keeprunning trebuia declarat volatil ca in momentul schimbarii de catre unul dintre thread-uri sa se schimbe deodata in memorie, nu la sf executiei.
+5.Ca sa nu se blocheze tre sa punem in aceeasi ordine lock urile din A si B.

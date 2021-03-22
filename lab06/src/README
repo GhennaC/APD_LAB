@@ -1,0 +1,5 @@
+1.Am utilizat metodele blocante al arrayblockedqueue put/take
+2.Atomic integer variabila + metoda addandget
+3.am utilizat addifcontains in loc de acel if si dupa replace.
+4.utilizat semaphore cu valoare -2 ,ca dupa ce citesc 3 threaduri ,semaph lasa doar threadul cu sort.
+5.am fc metoda addchild synchronized, si semphore cu -1 ,pt 2 threaduri de executie si dupa unul pt verificare.

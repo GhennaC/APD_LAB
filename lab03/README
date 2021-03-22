@@ -1,0 +1,2 @@
+ex2: scalabilitate 1 thread: 40 sec; 2thread-uri:30sec;  4 thread-uri: 24sec
+ex4: scalabilitate 1 thread: 1sec ; 2thread-uri : 0.7sec ; 4 thread-uri: 0.35sec

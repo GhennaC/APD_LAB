@@ -1,0 +1,7 @@
+1.In cazul meu pana pe la 10000 nu au fost schimbari,dupa dura mai mult sa afiseze.
+2.numthreads = sysconf..
+3.Se afiseaza un rand de iteratii in ordine ,dar dupa nu .
+4.al doilea thread afiseaza undeva pe la mijlocul primului.. nefiind in ordine.
+5.Din nou adunarile se produc random,in ordine diferita.
+6.In cazul meu rezolvarea prin threaduri a fost mai putin eficienta de aceea presupun ca da timpi mai mari decat cea iterativa obisnuita.
+S-ar putea sa fie problema din simplu fapt ca rulez tot pe masina virtuala ...astept feedback , scuze daca am facut ceva aiurea ....
